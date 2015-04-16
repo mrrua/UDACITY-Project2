@@ -1,7 +1,7 @@
-# UDACITY-Project3
-Restaurant Menu App w/ OAUTH README
+# UDACITY-Project2
+Tournament SQL README
 Version: 1.0
-Date: 04/15/2015
+Date: 04/09/2015
 Created By: Adam Rua
 
 CONTENTS OF THIS FILE:
@@ -34,11 +34,11 @@ HOW TO RUN THE PYTHON PROJECT SCRIPT
 -------------------------------------
  Now that you have Python running on your machine. Let continue by running our Project!
  
- 1. Download all files related to the project and delopy them to whatever location you'd like.
- 2. The DB file has used for testing the application has been included, but incase you'd like to create your own:
-    a. Delete "restaurantmenuwithusers.db"
-    b. Run the python program: database_setup.py - this will create the database for you.
-    c. Run the python program: lotsofmenus.py - this will load the database with data so you don't have to do it manually.
-    d. You now have a recreated: db file named: restaurantmenuwithusers.db
- 3. Now run the python program: finalproject.py - your browser will now load and you can navigate through the webpage for testing!
+ 1. Launch your DB tool. In our case we will be using PostgreSQL.
+ 2. Create a new database. In our example we used the name 'tournament'.
+ 3. After creating the new database, connect to said database.
+ 4. Import the database tables in the 'tournament.sql' file. (You can use the import comment, '\i <filename>' in PSQL, or just copy and paste the commands in the file.)
+ 5. Now that you have the database tables loaded, ensure you have also downloaded the 'tournament.py' and 'tournament_test.py' files into the same directory.
+ 6. Run the 'tournament_test.py' python program. You can do this by running the command: 'python tournament_test.py'.
+ 7. You have launched and run the tests for Project 2!
  
