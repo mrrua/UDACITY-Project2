@@ -1,0 +1,24 @@
+<html>
+<head> 
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <!--CSS in static folder-->
+    <link rel=stylesheet type=text/css href="{{url_for('static', filename='styles.css')}}">
+    <!--FONT-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Add New Restaurant</h1>
+{% include "header.html" %}
+<!--Form to collect data to create a new restaurant-->
+<div class='forms'>
+<form action="{{url_for('newRestaurant')}}" method = 'POST'>
+<p>Name:</p>
+<input type='text' size='30' name='name'>
+<input type='submit' value='Create'>
+</form>
+<a href = '{{url_for('showRestaurants')}}'>Cancel</a>
+</div>
+</body>
+</html>

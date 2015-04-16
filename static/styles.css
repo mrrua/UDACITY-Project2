@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url('img3.jpg');  */
+    background-color: #FFF;
+}
+h1, h2, h3, h4 {
+    color: #000;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1 {
+    border-bottom: 2px solid #eee; 
+}
+h2 {
+    font-size: 1.2em;
+}
+p, dd, dt {
+    color: #000;
+    font-weight: bold;
+}
+a {
+    text-decoration: none; 
+    color:#FF0000;
+    font-size: 15px;
+}
+.outer {
+    width:100%
+}
+.pane {
+    overflow: hidden;
+    border: 2px solid;
+    border-radius: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #999999; 
+    background-color: #FFF;
+    width: 75%;
+    height: auto;
+}
+.pane-square {
+    overflow: hidden;
+    padding: 10px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #999999; 
+    background-color: #FFF;
+    width: 60%;
+    height: auto;
+}
+.header {
+    left:50%; 
+    text-align: center;
+}
+.name p {
+    display: inline-block; 
+    float: left; 
+    color:#FFFFCC;
+}
+.description p {
+    color:#CCCCCC;
+}
+.price p {
+    text-align: right; 
+    width:50%; 
+    float: right;
+    color:#FFFFCC;
+}
+.editdeletepane{}
+
+.flash {
+    background: #cee5F5;
+}
+.forms {
+    margin-left: 5%;
+}
